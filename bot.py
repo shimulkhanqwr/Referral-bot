@@ -1,9 +1,15 @@
-import time
-import requests
-import hmac
-import hashlib
-import json
+from flask import Flask
 import os
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Bot is running!"
+
+if __name__ == '__main__':
+    port = int(os.environ.get("PORT", 10000))  # Default to 10000 if no PORT is set
+    app.run(host='0.0.0.0', port=port)
 
 # Binance API credentials
 BINANCE_API_KEY = "fhgNtIlE1TWSRorrHMKZxJjJl5HhTUBTFAllau9D0uwLEAvaqnInCRsd1BK6fHbF"
