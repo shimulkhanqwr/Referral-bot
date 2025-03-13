@@ -1,2 +1,2 @@
-rm requirements.txt
-touch requirements.txt
+python-telegram-bot==20.0
+requests==2.26.0
