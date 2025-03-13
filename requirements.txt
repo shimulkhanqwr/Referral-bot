@@ -1,1 +1,2 @@
-echo "requests" > requirements.txt
+rm requirements.txt
+touch requirements.txt
