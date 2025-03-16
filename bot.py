@@ -9,16 +9,16 @@ import threading
 app = Flask(__name__)
 
 # Binance API credentials (DO NOT share public keys in code!)
-BINANCE_API_KEY = "YOUR_BINANCE_API_KEY"
-BINANCE_SECRET_KEY = "YOUR_BINANCE_SECRET"
+BINANCE_API_KEY = "fhgNtIlE1TWSRorrHMKZxJjJl5HhTUBTFAllau9D0uwLEAvaqnInCRsd1BK6fHbF"
+BINANCE_SECRET_KEY = "fhgNtIlE1TWSRorrHMKZxJjJl5HhTUBTFAllau9D0uwLEAvaqnInCRsd1BK6fHbF"
 
 # Bybit API credentials
-BYBIT_API_KEY = "YOUR_BYBIT_API_KEY"
-BYBIT_SECRET_KEY = "YOUR_BYBIT_SECRET"
+BYBIT_API_KEY = "qc4OcSXBSZvEqoEyxp"
+BYBIT_SECRET_KEY = "qc4OcSXBSZvEqoEyxp"
 
 # Telegram Bot Token & Chat ID
-TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-TELEGRAM_CHAT_ID = "YOUR_CHAT_ID"
+TELEGRAM_BOT_TOKEN = "7732391797:AAE2588vDmx0umob1fObZaKtYDA6H_UIwbg"
+TELEGRAM_CHAT_ID = "7070160570"
 
 # Telegram Notification Function
 def send_telegram_message(message):
