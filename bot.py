@@ -1,7 +1,7 @@
 from telegram import Bot, Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
-TELEGRAM_BOT_TOKEN = "your_telegram_bot_token"
+TELEGRAM_BOT_TOKEN = "7732391797:AAE2588vDmx0umob1fObZaKtYDA6H_UIwbg"
 BINANCE_REFERRAL_LINK = "https://www.binance.com/en/register?ref=your_referral_code"
 
 def start(update: Update, context: CallbackContext):
