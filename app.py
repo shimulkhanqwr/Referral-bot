@@ -17,7 +17,7 @@ BINANCE_REFERRAL_LINK = f"https://www.binance.com/en/register?ref={538997774}"
 
 # Telegram Bot Token
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-bot = Bot(token=TELEGRAM_BOT_TOKEN)
+bot = Bot(token=7732391797:AAE2588vDmx0umob1fObZaKtYDA6H_UIwbg)
 dispatcher = Dispatcher(bot, None, workers=0)
 
 # Telegram Command: /start
