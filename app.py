@@ -12,8 +12,8 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 
 # Binance referral code
-BINANCE_REFERRAL_CODE = "YOUR_BINANCE_REFERRAL_CODE"
-BINANCE_REFERRAL_LINK = f"https://www.binance.com/en/register?ref={BINANCE_REFERRAL_CODE}"
+BINANCE_REFERRAL_CODE = "538997774"
+BINANCE_REFERRAL_LINK = f"https://www.binance.com/en/register?ref={538997774}"
 
 # Telegram Bot Token
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
