@@ -2,7 +2,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
 
 # Your Binance referral link
-BINANCE_REF_LINK = "https://www.binance.com/en/activity/referral-entry?ref=YOUR_REF_CODE"
+BINANCE_REF_LINK = "https://www.binance.com/en/activity/referral-entry?ref=538997774"
 
 # Start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -36,7 +36,7 @@ async def receive_proof(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(f"Copy & Share:\n\n{share_msg}")
 
 # Main bot setup
-app = ApplicationBuilder().token("YOUR_TELEGRAM_BOT_TOKEN").build()
+app = ApplicationBuilder().token("7732391797:AAHsSB-vJsLmGq0glX7jB-jh_fe9FXbmLbE").build()
 app.add_handler(CommandHandler("start", start))
 app.add_handler(MessageHandler(filters.TEXT | filters.PHOTO, receive_proof))
 app.add_handler(MessageHandler(filters.ALL, receive_proof))
